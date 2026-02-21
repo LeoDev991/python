@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome: ')).strip()
+print("Analisando seu nome...")
+print(nome.upper())
+print(nome.lower())
+print(nome.capitalize())
+print(nome.title())
+print("Seu nome tem ao todo {} letras".format(len(nome) - nome.count(' ')))
